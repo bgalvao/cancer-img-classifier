@@ -1,4 +1,4 @@
-wget https://www.kaggle.com/paultimothymooney/breast-histopathology-images/downloads/breast-histopathology-images.zip/1
+#wget https://www.kaggle.com/paultimothymooney/breast-histopathology-images/downloads/breast-histopathology-images.zip/1
 unzip *zip
 rm breast*zip
 mkdir data
