@@ -6,7 +6,7 @@ takes in image data and classifies regions as either:
 - `1` for the presence of IDC.
 
 ## Processing data
-The data is available for download in the link above. The script `dataset_download.sh` handles unzipping the files
+The data is available for download in the link above. The script `data_unzip.sh` handles unzipping the files
 and storing them in a folder `./data`, which the code in [`data_extraction.ipynb`](./data_extraction.ipynb) expects it to be.
 For the time being, a working small subset of this dataset is stored (via `pickle`) in `dataset.npys`.
 
